@@ -113,3 +113,37 @@ div:first-of-type a:hover {
 #get_ready_link a:hover {
     background-color: #567d52;
 }
+
+/* Error Page Styles */
+body:has(#error) {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 100px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#error {
+    font-size: 3em;
+    color: #b0413e;
+    margin-bottom: 20px;
+}
+
+#error + p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#return a {
+    text-decoration: none;
+    color: white;
+    background-color: #6b8e63;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#return a:hover {
+    background-color: #567d52;
+}
